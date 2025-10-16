@@ -5,6 +5,13 @@ A readable, dependency-free solver package for **ARC Prize 2025** (ARC‑AGI‑2
 
 > Works locally with the public ARC‑AGI‑2 repo and on Kaggle (no‑internet, notebook‑only).
 
+## Recent Improvements Added
+
+- **Symmetry Detection**: Added learners and transforms for detecting and creating vertical, horizontal, and both-way symmetry patterns
+- **Pattern Matching**: Added hole-filling and component-connecting transforms for common ARC task patterns
+- **Enhanced Search Library**: Extended search with symmetry and pattern transforms for better coverage
+- **Improved Heuristic Ranking**: Added priority-based transform ranking that favors high-value exact matches and geometric transforms over spatial operations
+
 ## Features
 
 - Grid toolkit: rotations, flips, transpose, integer scale up/down, nz‑bbox crop, translation, connected components, border drawing, tiling.
